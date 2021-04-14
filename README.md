@@ -15,6 +15,10 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate:refresh --seed
+//hapus storage yang ada di folder public
+kemudian ketik php artisan storage:link di terminal
+untuk merefresh link storage, kemudian sesuaikan dengan
+database yang ada//
 ```
 
 ## Run tests
@@ -25,17 +29,24 @@ php artisan serve
 
 ## Demo account
 
+
 ```sh
-email: admin_a@mail.com
-password: 123456
+edited//
+email: admin@mail.com
+password: 12345
 ```
 
 ```sh
-email: user_a@mail.com
-password: 123456
+edited//
+email: user@mail.com
+password: 12345
 ```
 
 ## Author
+
+```sh
+Original post from:
+```
 
 👤 **Labtif Unsur**
 
