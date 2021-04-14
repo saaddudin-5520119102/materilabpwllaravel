@@ -15,7 +15,8 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate:refresh --seed
-//hapus storage yang ada di folder public
+//hapus storage yang ada di folder public dengan mengetik
+rm -rf public/storage di terminal
 kemudian ketik php artisan storage:link di terminal
 untuk merefresh link storage, kemudian sesuaikan dengan
 database yang ada//
